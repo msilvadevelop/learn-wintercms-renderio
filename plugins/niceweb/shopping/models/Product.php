@@ -11,6 +11,11 @@ class Product extends Model
     use \Winter\Storm\Database\Traits\Validation;
     
     use \Winter\Storm\Database\Traits\SoftDelete;
+    
+    public function init()
+    {
+        $this->connection = env('APP_DB_DRIVE', 'mysql');
+    }
 
     protected $dates = ['deleted_at'];
 

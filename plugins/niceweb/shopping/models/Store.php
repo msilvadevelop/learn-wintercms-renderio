@@ -9,6 +9,11 @@ class Store extends Model
 {
     use \Winter\Storm\Database\Traits\Validation;
 
+    public function init()
+    {
+        $this->connection = env('APP_DB_DRIVE', 'mysql');
+    }
+
     /**
      * @var string The database table used by the model.
      */
