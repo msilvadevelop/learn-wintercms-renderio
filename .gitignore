@@ -3,9 +3,6 @@
 composer.phar
 
 # Framework ignores
-.env
-.env.*.php
-.env.php
 selenium.php
 /bootstrap/compiled.php
 .phpunit.result.cache
