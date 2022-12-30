@@ -1,0 +1,33 @@
+fields:
+    is_active:
+        label: 'Active ?'
+        span: storm
+        cssClass: col-sm-6
+        default: 1
+        type: switch
+    is_visible:
+        label: 'Visible ?'
+        span: storm
+        cssClass: col-sm-6
+        type: switch
+    product:
+        label: 'Product'
+        span: storm
+        cssClass: col-sm-6
+        type: text
+    sku:
+        label: 'SKU'
+        span: storm
+        cssClass: col-sm-6
+        type: text      
+    short_description:
+        label: 'Short Description'
+        span: storm
+        cssClass: col-sm-6
+        type: text                 
+    description:
+        label: 'Description'
+        span: storm
+        cssClass: col-sm-6
+        type: textarea  
+        size: small

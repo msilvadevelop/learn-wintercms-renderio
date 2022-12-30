@@ -1,0 +1,10 @@
+name: Products
+form: $/niceweb/shopping/models/product/fields.yaml
+modelClass: Niceweb\Shopping\Models\Product
+defaultRedirect: niceweb/shopping/products
+create:
+    redirect: 'niceweb/shopping/products/update/:id'
+    redirectClose: niceweb/shopping/products
+update:
+    redirect: niceweb/shopping/products
+    redirectClose: niceweb/shopping/products

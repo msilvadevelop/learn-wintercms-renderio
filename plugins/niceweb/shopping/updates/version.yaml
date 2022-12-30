@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table niceweb_shopping_products'
+    - builder_table_create_niceweb_shopping_products.php
+1.0.3:
+    - 'Created table niceweb_shopping_stores'
+    - builder_table_create_niceweb_shopping_stores.php
+1.0.4:
+    - 'Created table niceweb_shopping_segments'
+    - builder_table_create_niceweb_shopping_segments.php

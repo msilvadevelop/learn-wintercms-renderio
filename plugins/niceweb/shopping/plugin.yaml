@@ -1,0 +1,20 @@
+plugin:
+    name: 'niceweb.shopping::lang.plugin.name'
+    description: 'niceweb.shopping::lang.plugin.description'
+    author: Niceweb
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    main-shopping:
+        label: Shopping
+        url: niceweb/shopping/products
+        icon: icon-life-ring
+        sideMenu:
+            shopping-products:
+                label: 'niceweb.shopping::lang.menu-shopping-products'
+                url: niceweb/shopping/products
+                icon: icon-sitemap
+permissions:
+    shopping:
+        tab: 'niceweb.shopping::lang.permissions.shopping'
+        label: 'niceweb.shopping::lang.permissions.shopping'

@@ -1,0 +1,37 @@
+columns:
+    id:
+        label: '#ID'
+        type: number
+        visible: false
+    store_id:
+        label: Store
+        type: text
+        relation: rstore
+        valueFrom: store
+    sku:
+        label: sku
+        type: text
+    product:
+        label: product
+        type: text
+    description:
+        label: description
+        type: text
+    short_description:
+        label: 'short description'
+        type: text
+    is_visible:
+        label: 'Visible ?'
+        type: switch
+    is_active:
+        label: 'Active ?'
+        type: switch
+    segment_id:
+        label: Segment
+        type: text
+        relation: rsegment
+        valueFrom: segment
+    created_at:
+        label: 'Created at'
+        type: datetime
+        format: Y/m/d H:i:s
